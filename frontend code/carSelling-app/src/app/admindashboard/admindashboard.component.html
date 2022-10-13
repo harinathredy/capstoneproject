@@ -1,0 +1,12 @@
+<div>
+    <h2>Welcome to Admin Home Page</h2>
+    <a routerLink="addCar">Add Car</a> |
+    <a routerLink="findAllCar">View Cars</a>
+    <br/>
+    <hr/>
+        <router-outlet></router-outlet>
+    <hr/>
+  
+    <br/>
+    <input type="button" value="logout" (click)="logout()"/>
+</div>
